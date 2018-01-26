@@ -3,7 +3,7 @@ var router = express.Router();
 var path = require('path');
 
 
-const controller=require('/Users/addy/WebstormProjects/FinalProject/controllers/login-controller.js');
+const controller=require('../controllers/login-controller.js');
 
 /* GET home page. */
 router.get('/', function(req, res) {
