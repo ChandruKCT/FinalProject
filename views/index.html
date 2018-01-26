@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Coding Platform</title>
+
+    <link rel='stylesheet' href='http://codepen.io/assets/libs/fullpage/jquery-ui.css'>
+
+    <link rel="stylesheet" href="csss/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+<br>
+<br><br><br><br>
+
+<div class="login-card">
+    <h1>Log-in</h1><br>
+    <form action="/result" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password" pattern=".{4,10}" required title="4 characters minimum">
+        <input type="submit" name="login" class="login login-submit" value="Signin">
+
+        <div class="login-help">
+            <a href="#"><h3>Forgot Password</h3></a>
+        </div>
+
+        <input type="submit" name="login" class="login login-s" value="Login with Google">
+
+    </form>
+
+</div>
+
+<!-- <div id="error"><img src="https://dl.dropboxusercontent.com/u/23299152/Delete-icon.png" /> Your caps-lock is on.</div> -->
+
+<script src='http://codepen.io/assets/libs/fullpage/jquery_and_jqueryui.js'></script>
+
+</body>
+
+</html>
+
+
+
+
+
+<!--
+<html>
+<body>
+<form method="post" action="/result">
+    <input name="username" type="text">
+    <input  name="password" type="password">
+    <input type="submit" value="login">
+</form>
+</body>
+</html>
+
+-->
