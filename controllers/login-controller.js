@@ -1,8 +1,8 @@
 const mongoose=require('mongoose');
 
-const  user_schema=require('/Users/addy/WebstormProjects/FinalProject/bin/schemas/user-schema.js');
-const db_controller=require('/Users/addy/WebstormProjects/FinalProject/bin/db/db.js');
-const  util_controller=require('/Users/addy/WebstormProjects/FinalProject/utils/utils.js');
+const  user_schema=require('../bin/schemas/user-schema.js');
+const db_controller=require('../bin/db/db.js');
+const  util_controller=require('../utils/utils.js');
 
 exports.check_credentials=async function (req,res) {
     try {
