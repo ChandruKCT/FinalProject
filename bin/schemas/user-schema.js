@@ -10,7 +10,7 @@ exports.schema=mongoose.Schema({
     display_picture:String,
     email:String,
     phone:String
-},
+    },
     {
         collection:'Users'
-    });
+});

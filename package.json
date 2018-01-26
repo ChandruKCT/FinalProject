@@ -15,5 +15,13 @@
     "serve-favicon": "~2.4.5",
     "mongoose": "^5.0.1",
     "promise": "^8.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1"
+  },
+  "babel": {
+    "plugins": ["transform-async-to-generator"]
   }
+
 }
