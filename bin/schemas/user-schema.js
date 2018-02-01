@@ -1,16 +1,23 @@
 const mongoose=require('mongoose');
-
-exports.schema=mongoose.Schema({
-    name: String,
-    roll_no:String,
-    dob:String,
-    gender:String,
-    department:String,
+const bcrypt=require('bcrypt-nodejs');
+const schema=mongoose.Schema({
     password:String,
-    display_picture:String,
-    email:String,
-    phone:String
-},
+    email:String
+    },
     {
         collection:'Users'
     });
+
+exports.instance=function (mon) {
+    return mon.model('User',schema);
+}
+
+schema.methods.generateHash=function (password) {
+    return bcrypt.hashSync(password, bcrypt.genSaltSync(8), null);
+}
+
+schema.methods.validPassword = function(password) {
+    return bcrypt.compareSync(password, this.password);
+};
+
+

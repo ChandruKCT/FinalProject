@@ -1,16 +1,21 @@
-var mongoose = require('mongoose');
+var Mongoose = require('mongoose');
 
-exports.establish_connection=function () {
-    return new Promise(function (resolve,reject) {
-        mongoose.connect('mongodb://localhost/FinalProject');
-        var db = mongoose.connection.then(function () {
-            console.log("CONNECTED");
-            resolve(db);
-        }).catch(function () {
-            console.log("NOT CONNECTED");
-            reject(new Error("Database not connected"));
-        });
+Mongoose.connect('mongodb://localhost/FinalProject');
+var  mongoose= Mongoose.connection.then(function () {
+    console.log("CONNECTED");
+}).catch(function () {
+    console.log("NOT CONNECTED");
+});
 
-    })
-}
+let db={};
+db.mongoose=mongoose;
+db.Mongoose=Mongoose;
+
+const  user=require('../schemas/user-schema.js');
+
+db.user=user.instance(Mongoose);
+
+module.exports=db;
+
+
 
