@@ -12,6 +12,6 @@ router.get('/', function(req, res) {
 
 router.post('/result',function (req,res) {
 controller.check_credentials(req,res);
-})
+});
 
 module.exports = router;

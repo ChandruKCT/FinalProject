@@ -12,5 +12,5 @@ exports.schema=mongoose.Schema({
     phone:String
     },
     {
-        collection:'Users'
+        collection:'users'
 });
