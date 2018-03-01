@@ -18,7 +18,7 @@ module.exports = function(passport) {
     router.get('/', destroy_cookie, function (req, res) {
         req.session.auth=false;
         console.log(req.session);
-        res.render('index.html', {title: ' Login Page '});
+        res.render('Login/login.html', {title: ' Login Page '});
     });
 
 
