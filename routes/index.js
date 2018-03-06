@@ -20,6 +20,10 @@ router.get('/:subject/:topic', function (req, res) {
     problem_solving_controller.fetch_problem_solving_topics(req, res);
 });
 
+router.post('/:subject/:topic', function (req, res) {
+    problem_solving_controller.post_problem_solving_problems(req, res);
+});
+
 router.get('/:subject/:topic/:name', function (req, res) {
     problem_solving_controller.fetch_problem_solving_description(req, res);
 });
