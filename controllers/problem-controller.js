@@ -1,8 +1,4 @@
-const mongoose=require('mongoose');
-
-const  user_schema=require('../bin/schemas/subject-schema');
 const db_controller=require('../bin/db/db.js');
-const util_controller = require('../util/fetch_problems');
 
 exports.fetch_problem_solving_problems=async function (req,res) {
 
@@ -47,6 +43,7 @@ exports.post_problem_solving_problems = async function (req, res) {
         problem.sub_id=sub_id[0];
 
         console.log(typeof problem.sub_id);
+
         await problem.save( function (err, data) {
             if(err) {
                 res.json(err);
