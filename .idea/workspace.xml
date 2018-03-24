@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a77917-a628-476b-a792-6e32318be152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/schemas/history-schema.js" afterPath="$PROJECT_DIR$/bin/schemas/history-schema.js" />
-      <change beforePath="$PROJECT_DIR$/controllers/history-controller.js" afterPath="$PROJECT_DIR$/controllers/history-controller.js" />
-      <change beforePath="$PROJECT_DIR$/controllers/problem-controller.js" afterPath="$PROJECT_DIR$/controllers/problem-controller.js" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -42,17 +39,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="history-schema.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="history-schema.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bin/schemas/history-schema.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-242">
@@ -118,8 +115,8 @@
         <option value="$PROJECT_DIR$/bin/db/db.js" />
         <option value="$PROJECT_DIR$/controllers/problem-controller.js" />
         <option value="$PROJECT_DIR$/controllers/history-controller.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/bin/schemas/history-schema.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
   </component>
@@ -249,12 +246,12 @@
       <workItem from="1520940048216" duration="818000" />
       <workItem from="1521556379031" duration="391000" />
       <workItem from="1521711302144" duration="5311000" />
-      <workItem from="1521911734364" duration="8438000" />
+      <workItem from="1521911734364" duration="9055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59628000" />
+    <option name="totallyTimeSpent" value="60245000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -647,18 +644,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/schemas/history-schema.js">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/bin/schemas/history-schema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="-242">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
