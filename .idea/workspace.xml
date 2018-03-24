@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14a77917-a628-476b-a792-6e32318be152" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/schemas/history-schema.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/schemas/points-scheme.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin/schemas/user-info-schema.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/controllers/history-controller.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bin/db/db.js" afterPath="$PROJECT_DIR$/bin/db/db.js" />
-      <change beforePath="$PROJECT_DIR$/controllers/algorithm-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/controllers/data-structures-controller.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/controllers/problem-solving-controller.js" afterPath="$PROJECT_DIR$/controllers/problem-controller.js" />
+      <change beforePath="$PROJECT_DIR$/bin/schemas/history-schema.js" afterPath="$PROJECT_DIR$/bin/schemas/history-schema.js" />
+      <change beforePath="$PROJECT_DIR$/controllers/history-controller.js" afterPath="$PROJECT_DIR$/controllers/history-controller.js" />
+      <change beforePath="$PROJECT_DIR$/controllers/problem-controller.js" afterPath="$PROJECT_DIR$/controllers/problem-controller.js" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="problem-controller.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="problem-controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/problem-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -41,18 +35,18 @@
       <file leaf-file-name="history-controller.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/history-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1360">
-              <caret line="80" column="36" lean-forward="false" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+            <state relative-caret-position="302">
+              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="234">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,8 +55,8 @@
       <file leaf-file-name="history-schema.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/schemas/history-schema.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="-242">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,10 +116,10 @@
         <option value="$PROJECT_DIR$/bin/schemas/points-scheme.js" />
         <option value="$PROJECT_DIR$/bin/schemas/user-info-schema.js" />
         <option value="$PROJECT_DIR$/bin/db/db.js" />
-        <option value="$PROJECT_DIR$/bin/schemas/history-schema.js" />
         <option value="$PROJECT_DIR$/controllers/problem-controller.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/controllers/history-controller.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/bin/schemas/history-schema.js" />
       </list>
     </option>
   </component>
@@ -255,12 +249,12 @@
       <workItem from="1520940048216" duration="818000" />
       <workItem from="1521556379031" duration="391000" />
       <workItem from="1521711302144" duration="5311000" />
-      <workItem from="1521911734364" duration="8024000" />
+      <workItem from="1521911734364" duration="8438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59214000" />
+    <option name="totallyTimeSpent" value="59628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,34 +631,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/controllers/problem-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/schemas/history-schema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="22" column="67" lean-forward="false" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/history-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="36" lean-forward="false" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+        <state relative-caret-position="302">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/problem-controller.js">
+    <entry file="file://$PROJECT_DIR$/bin/schemas/history-schema.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="-242">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -5,7 +5,7 @@ exports.fetch_history_of_user_of_problem=async function (req,res) {
 
     try {
         let history = db_controller.history;
-        console.log(req.params.prob_id);
+
         let series = await history.find({
             user_id: req.params.user_id,
             prob_id: req.params.prob_id
@@ -30,7 +30,6 @@ exports.fetch_history_of_user_of_problem=async function (req,res) {
 exports.post_history_of_user_of_problem=async function (req,res) {
 
     try {
-
         let solved = req.body.solved;
         console.log(req.body.solved);
         let history = db_controller.history;

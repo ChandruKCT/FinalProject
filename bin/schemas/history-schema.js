@@ -1,6 +1,6 @@
-const mongoose=require('mongoose');
+let mongoose=require('mongoose');
 
-const schema=mongoose.Schema(
+let schema=mongoose.Schema(
     {
         solved : Date,
         attempted : Date,

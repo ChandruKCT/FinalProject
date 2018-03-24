@@ -21,7 +21,6 @@ exports.fetch_problem_solving_problems=async function (req,res) {
 };
 
 exports.post_problem_solving_problems = async function (req, res) {
-
     try {
         let subjects = db_controller.subjects;
 
